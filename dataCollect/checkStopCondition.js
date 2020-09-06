@@ -12,7 +12,7 @@ async function checkStopCondition(message) {
         data.message.push(msg)
         var len = data.savedLocaly.length
         console.clear()
-        console.log(len)
+        console.log(len + 'Unique Data')
     }
 
     if(len >= 17016){
